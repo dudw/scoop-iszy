@@ -21,6 +21,6 @@
 
 ### TODOs
 
-| App name **(Scoop name)**        | Tested | Checkver | Autoupdate (Hash) |
-| -------------------------------- | :----: | :------: | :---------------: |
-| [Tim **(tim)**](./TODO/tim.json) |   ❌   |    ✔     |      ✔ (❌)       |
+| App name **(Scoop name)**                            | Tested | Checkver | Autoupdate (Hash) |
+| ---------------------------------------------------- | :----: | :------: | :---------------: |
+| [Tim **(tim)**](https://office.qq.com/download.html) |   ❌   |    ✔     |      ✔ (❌)       |
