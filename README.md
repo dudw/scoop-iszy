@@ -2,7 +2,14 @@
 
 `scoop bucket add iszy 'https://github.com/ZvonimirSun/scoop-iszy.git'`
 
-## Available manifests for installation
+-   [How to create your own bucket](https://github.com/Ash258/GenericBucket)
+-   [Manifests](#manifests)
+    -   [Available manifests for installation](#available-manifests-for-installation)
+    -   [TODOs](#todos)
+
+## Manifests
+
+### Available manifests for installation
 
 | App name **(Scoop name)**                                                                 | Tested | Checkver | Autoupdate (Hash) |
 | ----------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
@@ -11,3 +18,9 @@
 | [Office Tool Plus **(office-tool)**](./bucket/office-tool.json)                           |   ✔    |    ✔     |      ✔ (⛔)       |
 | [万彩办公大师 **(officebox)**](./bucket/officebox.json)                                   |   ✔    |    ✔     |      ✔ (⛔)       |
 | [ShadowsocksR(rixCloud) **(shadowsocksr-rixcloud)**](./bucket/shadowsocksr-rixcloud.json) |   ✔    |    ✔     |      ✔ (⛔)       |
+
+### TODOs
+
+| App name **(Scoop name)**        | Tested | Checkver | Autoupdate (Hash) |
+| -------------------------------- | :----: | :------: | :---------------: |
+| [Tim **(tim)**](./TODO/tim.json) |   ❌   |    ✔     |      ✔ (❌)       |
