@@ -18,10 +18,10 @@
 | [Office Tool Plus **(office-tool)**](./bucket/office-tool.json)                           |   ✔    |    ✔     |      ✔ (⛔)       |
 | [万彩办公大师 **(officebox)**](./bucket/officebox.json)                                   |   ✔    |    ✔     |      ✔ (⛔)       |
 | [ShadowsocksR(rixCloud) **(shadowsocksr-rixcloud)**](./bucket/shadowsocksr-rixcloud.json) |   ✔    |    ✔     |      ✔ (⛔)       |
+| [微信 **(wechat)**](./bucket/wechat.json)                                                 |   ✔    |    ✔     |      ✔ (⛔)       |
 
 ### TODOs
 
 | App name **(Scoop name)**                            | Tested | Checkver | Autoupdate (Hash) |
 | ---------------------------------------------------- | :----: | :------: | :---------------: |
 | [Tim **(tim)**](https://office.qq.com/download.html) |   ❌   |    ✔     |      ✔ (❌)       |
-| [微信 **(wechat)**](./TODO/wechat.json)              |   ❌   |    ✔     |      ✔ (❌)       |
