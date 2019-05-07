@@ -24,3 +24,4 @@
 | App name **(Scoop name)**                            | Tested | Checkver | Autoupdate (Hash) |
 | ---------------------------------------------------- | :----: | :------: | :---------------: |
 | [Tim **(tim)**](https://office.qq.com/download.html) |   ❌   |    ✔     |      ✔ (❌)       |
+| [微信 **(wechat)**](./TODO/wechat.json)              |   ❌   |    ✔     |      ✔ (❌)       |
