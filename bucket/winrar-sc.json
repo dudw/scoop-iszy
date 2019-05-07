@@ -1,0 +1,24 @@
+{
+    "version": "5.70",
+    "description": "Powerful archive manager.",
+    "homepage": "https://rarlab.com/",
+    "license": "Shareware",
+    "notes": "Set up context menu within settings window.",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190304/wrr/winrar-x64-570sc.exe#/cosi.7z"
+        },
+        "32bit": {
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190304/wrr/wrar570sc.exe#/cosi.7z"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\rarreg.key\")) {",
+        "    Write-Host 'Key does not exist' -f Yellow",
+        "    New-Item \"$dir\\rarreg.key\" -Type File | Out-Null",
+        "}"
+    ],
+    "persist": "rarreg.key",
+    "bin": ["Rar.exe", "UnRAR.exe"],
+    "shortcuts": [["WinRAR.exe", "WinRAR"]]
+}
