@@ -19,6 +19,7 @@
 | [万彩办公大师 **(officebox)**](./bucket/officebox.json)                                   |   ✔    |    ✔     |      ✔ (⛔)       |
 | [ShadowsocksR(rixCloud) **(shadowsocksr-rixcloud)**](./bucket/shadowsocksr-rixcloud.json) |   ✔    |    ✔     |      ✔ (⛔)       |
 | [微信 **(wechat)**](./bucket/wechat.json)                                                 |   ✔    |    ✔     |      ✔ (⛔)       |
+| [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)                                         |   ✔    |    ⛔    |      ⛔ (⛔)      |
 
 ### TODOs
 
