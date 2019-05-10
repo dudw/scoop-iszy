@@ -20,12 +20,13 @@
 | [ShadowsocksR(rixCloud) **(shadowsocksr-rixcloud)**](./bucket/shadowsocksr-rixcloud.json) |   ✔    |    ✔     |       ✔ (✔)       |
 | [微信 **(wechat)**](./bucket/wechat.json)                                                 |   ✔    |    ✔     |       ✔ (✔)       |
 | [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)                                         |   ✔    |    ⛔    |      ⛔ (⛔)      |
+| [Tim **(tim)**](./bucket/tim.json)                                                        |  🎃🔶  |    ✔     |       ✔ (✔)       |
 
 ### TODOs
 
-| App name **(Scoop name)**                            | Tested | Checkver | Autoupdate (Hash) |
-| ---------------------------------------------------- | :----: | :------: | :---------------: |
-| [Tim **(tim)**](https://office.qq.com/download.html) |   ❌   |    ✔     |       ✔ (✔)       |
+| App name **(Scoop name)** | Tested | Checkver | Autoupdate (Hash) |
+| ------------------------- | :----: | :------: | :---------------: |
+| N/A                       |        |          |                   |
 
 -   🔶 Additional testing is needed
 -   ⭕ Not needed
