@@ -5,5 +5,10 @@
     "license": "freeware",
     "url": "https://mirrors.yuntu.ca/office-tool/Office%20Tool%20v6.0.0.4.zip",
     "hash": "sha1:36a33ef1d81684b26f726332498130d713c6cc6e",
-    "shortcuts": [["Office Tool\\Office Tool Plus.exe", "Office Tool Plus"]]
+    "shortcuts": [
+        [
+            "Office Tool\\Office Tool Plus.exe",
+            "Office Tool Plus"
+        ]
+    ]
 }

@@ -12,8 +12,18 @@
             "hash": "sha1:4243e8b858a8930d4804720b776251dcb5a20e71"
         }
     },
-    "shortcuts": [["MEOW.exe", "MEOW"]],
-    "persist": ["rc.txt", "proxy.txt", "direct.txt", "reject.txt"],
+    "shortcuts": [
+        [
+            "MEOW.exe",
+            "MEOW"
+        ]
+    ],
+    "persist": [
+        "rc.txt",
+        "proxy.txt",
+        "direct.txt",
+        "reject.txt"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -24,6 +34,8 @@
                 "url": "https://github.com/ZvonimirSun/MEOW/raw/gh-pages/dist/windows/MEOW-x86-$version.zip"
             }
         },
-        "hash": { "url": "$url.sha256" }
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }

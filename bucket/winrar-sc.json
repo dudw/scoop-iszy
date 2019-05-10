@@ -11,7 +11,10 @@
             "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190304/wrr/wrar570sc.exe"
         }
     },
-    "bin": ["rar.exe", "unrar.exe"],
+    "bin": [
+        "rar.exe",
+        "unrar.exe"
+    ],
     "persist": "rarreg.key",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\rarreg.key\")) {",
@@ -20,7 +23,10 @@
         "}"
     ],
     "installer": {
-        "args": ["/s", "/d$dir"]
+        "args": [
+            "/s",
+            "/d$dir"
+        ]
     },
     "uninstaller": {
         "file": "Uninstall.exe",
