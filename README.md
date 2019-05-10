@@ -26,3 +26,14 @@
 | App name **(Scoop name)**                            | Tested | Checkver | Autoupdate (Hash) |
 | ---------------------------------------------------- | :----: | :------: | :---------------: |
 | [Tim **(tim)**](https://office.qq.com/download.html) |   ❌   |    ✔     |       ✔ (✔)       |
+
+-   🔶 Additional testing is needed
+-   ⭕ Not needed
+-   ⛔ Not possible (need download)
+-   ♻ Nightly
+-   🎃 Installers have their own mind
+    -   Basicly manifests which break my philosophy of no hurt mode.
+        -   No Registry
+        -   No junk files creating
+        -   ...
+    -   Installing is needed in some cases and path cannot be changed.
