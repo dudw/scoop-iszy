@@ -11,6 +11,7 @@
         "re": "微信 PC 版 ([\\d+\\.]+\\w+?)"
     },
     "autoupdate": {
-        "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/wechat.7z"
+        "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/wechat.7z",
+        "hash": { "url": "$url.sha256" }
     }
 }

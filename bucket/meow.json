@@ -23,6 +23,7 @@
             "32bit": {
                 "url": "https://github.com/ZvonimirSun/MEOW/raw/gh-pages/dist/windows/MEOW-x86-$version.zip"
             }
-        }
+        },
+        "hash": { "url": "$url.sha256" }
     }
 }
