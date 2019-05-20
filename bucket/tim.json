@@ -1,0 +1,24 @@
+{
+    "homepage": "https://office.qq.com/",
+    "description": "TIM. 专注团队沟通协作",
+    "version": "2.3.2",
+    "license": "Shareware",
+    "url": "https://dldir1.qq.com/qqfile/qq/PCTIM2.3.2/21158/TIM2.3.2.21158.exe",
+    "hash": "212f45d12fa9d705d4caa99d6a674a42f3818d83d364f7e5c1c70028e3a0e77f",
+    "installer": {
+        "args": "/s"
+    },
+    "uninstaller": {
+        "script": "& \"C:\\Program Files (x86)\\Tencent\\TIM\\TIMUninst.exe\""
+    },
+    "checkver": {
+        "url": "https://office.qq.com/download.html",
+        "re": "https://dldir1.qq.com/qqfile/qq/PCTIM(?<version>[\\d\\w.]+)/(?<short>[\\d.]+)/"
+    },
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/qqfile/qq/PCTIM$matchVersion/$matchShort/TIM$matchVersion.$matchShort.exe",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
