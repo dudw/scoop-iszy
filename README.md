@@ -4,12 +4,8 @@
 
 -   [Scoop bucket Template](https://github.com/Ash258/GenericBucket)
 -   [Manifests](#manifests)
-    -   [Available manifests for installation](#available-manifests-for-installation)
-    -   [TODOs](#todos)
 
 ## Manifests
-
-### Available manifests for installation
 
 | App name **(Scoop name)**                                       | Tested | Checkver | Autoupdate (Hash) |
 | --------------------------------------------------------------- | :----: | :------: | :---------------: |
@@ -20,12 +16,7 @@
 | [微信 **(wechat)**](./bucket/wechat.json)                       |   ✔    |    ✔     |      ✔ (⛔)       |
 | [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)               |   ✔    |    ✔     |      ⛔ (⛔)      |
 | [Tim **(tim)**](./bucket/tim.json)                              |  🎃🔶  |    ✔     |      ✔ (⛔)       |
-
-### TODOs
-
-| App name **(Scoop name)** | Tested | Checkver | Autoupdate (Hash) |
-| ------------------------- | :----: | :------: | :---------------: |
-| N/A                       |        |          |                   |
+| [Oracle JDK 8 **(oraclejdk8)**](./TODO/oraclejdk8.json)         |   ✔    |    ✔     |      ✔ (⛔)       |
 
 -   🔶 Additional testing is needed
 -   ⭕ Not needed
