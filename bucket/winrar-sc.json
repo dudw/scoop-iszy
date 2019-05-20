@@ -31,5 +31,9 @@
     "uninstaller": {
         "file": "Uninstall.exe",
         "args": "/s"
+    },
+    "checkver": {
+        "url": "https://www.rarlab.com/",
+        "re": "WinRAR and RAR ([\\d+\\.]+\\w+?) release"
     }
 }
