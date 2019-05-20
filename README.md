@@ -16,7 +16,7 @@
 | [Clash for Windows **(clash)**](./bucket/clash.json)            |   ✔    |    ✔     |      ✔ (⛔)       |
 | [Meow **(meow)**](./bucket/meow.json)                           |   ✔    |    ✔     |      ✔ (⛔)       |
 | [Office Tool Plus **(office-tool)**](./bucket/office-tool.json) |   ✔    |    ✔     |      ✔ (⛔)       |
-| [万彩办公大师 **(officebox)**](./bucket/officebox.json)         |   ✔    |    ⛔    |      ⛔ (⛔)      |
+| [万彩办公大师 **(officebox)**](./bucket/officebox.json)         |   ✔    |    ✔     |      ✔ (⛔)       |
 | [微信 **(wechat)**](./bucket/wechat.json)                       |   ✔    |    ✔     |      ✔ (⛔)       |
 | [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)               |   ✔    |    ⛔    |      ⛔ (⛔)      |
 | [Tim **(tim)**](./bucket/tim.json)                              |  🎃🔶  |    ✔     |      ✔ (⛔)       |

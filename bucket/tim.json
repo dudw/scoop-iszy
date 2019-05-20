@@ -16,9 +16,6 @@
         "re": "https://dldir1.qq.com/qqfile/qq/PCTIM(?<version>[\\d\\w.]+)/(?<short>[\\d.]+)/"
     },
     "autoupdate": {
-        "url": "https://dldir1.qq.com/qqfile/qq/PCTIM$matchVersion/$matchShort/TIM$matchVersion.$matchShort.exe",
-        "hash": {
-            "url": "$url.sha256"
-        }
+        "url": "https://dldir1.qq.com/qqfile/qq/PCTIM$matchVersion/$matchShort/TIM$matchVersion.$matchShort.exe"
     }
 }

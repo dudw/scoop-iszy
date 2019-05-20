@@ -16,9 +16,6 @@
         "re": "最新版本：([\\d+\\.]+\\w+?) 下载大小"
     },
     "autoupdate": {
-        "url": "https://mirrors.yuntu.ca/office-tool/Office%20Tool%20v$version.0.zip",
-        "hash": {
-            "url": "$url.sha256"
-        }
+        "url": "https://mirrors.yuntu.ca/office-tool/Office%20Tool%20v$version.0.zip"
     }
 }
