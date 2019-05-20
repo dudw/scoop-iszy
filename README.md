@@ -2,7 +2,7 @@
 
 `scoop bucket add iszy 'https://github.com/ZvonimirSun/scoop-iszy.git'`
 
--   [How to create your own bucket](https://github.com/Ash258/GenericBucket)
+-   [Scoop bucket Template](https://github.com/Ash258/GenericBucket)
 -   [Manifests](#manifests)
     -   [Available manifests for installation](#available-manifests-for-installation)
     -   [TODOs](#todos)
