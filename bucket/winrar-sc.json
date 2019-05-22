@@ -1,8 +1,8 @@
 {
-    "homepage": "https://www.rarlab.com/",
+    "homepage": "https://www.win-rar.com/",
     "description": "Powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.",
     "version": "5.71",
-    "license": "Shareware",
+    "license": "https://www.win-rar.com/winrarlicense.html?&L=0",
     "architecture": {
         "64bit": {
             "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190509/wrr/winrar-x64-571sc.exe"
