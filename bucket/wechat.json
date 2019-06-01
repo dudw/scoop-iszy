@@ -1,10 +1,10 @@
 {
     "homepage": "https://pc.weixin.qq.com/",
     "description": "微信 PC 版",
-    "version": "2.6.7",
+    "version": "2.6.8",
     "license": "Freeware",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/wechat.7z",
-    "hash": "sha1:b1c1bea844fba10e2c9903aeecfa8de53ec8fb0a",
+    "hash": "e84740348b91a18891ff0b8c5799138dc2a21fe9205733d98c7c36c32a7a5399",
     "shortcuts": [
         [
             "WeChat.exe",
