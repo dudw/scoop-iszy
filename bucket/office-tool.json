@@ -1,10 +1,10 @@
 {
     "homepage": "https://otp.landian.vip/zh-cn/",
     "description": "Office Tool Plus 基于 Office Deployment Tool 打造，可以很轻松地部署 Office。Office Tool Lite 基于系统 API 开发，更适用于多终端部署操作。无论你是个体还是团队，Office Tool 都是您的 Office 小助手。",
-    "version": "6.2.2.0",
+    "version": "6.2.2.1",
     "license": "GPL-3.0+",
-    "url": "https://mirrors.yuntu.ca/office-tool/Office%20Tool%20v6.2.2.0.zip",
-    "hash": "5c26b26c879ef1b9bc8e01f044936b4a7b19f22341049699536bc08c6c318df5",
+    "url": "https://mirrors.yuntu.ca/office-tool/Office%20Tool%20v6.2.2.1.zip",
+    "hash": "c5b7fb774caff9c39b35bfe66a57367e56e19b3de0304bc82d49a8f454e45764",
     "shortcuts": [
         [
             "Office Tool\\Office Tool Plus.exe",
