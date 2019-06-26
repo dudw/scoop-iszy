@@ -7,16 +7,17 @@
 
 ## Manifests
 
-| App name **(Scoop name)**                                       | Tested | Checkver | Autoupdate (Hash) |
-| --------------------------------------------------------------- | :----: | :------: | :---------------: |
-| [Clash for Windows **(clash)**](./bucket/clash.json)            |   ✔    |    ✔     |      ✔ (⛔)       |
-| [Meow **(meow)**](./bucket/meow.json)                           |   ✔    |    ✔     |      ✔ (⛔)       |
-| [Office Tool Plus **(office-tool)**](./bucket/office-tool.json) |   ✔    |    ✔     |      ✔ (⛔)       |
-| [万彩办公大师 **(officebox)**](./bucket/officebox.json)         |   ✔    |    ✔     |      ✔ (⛔)       |
-| [微信 **(wechat)**](./bucket/wechat.json)                       |   ✔    |    ✔     |      ✔ (⛔)       |
-| [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)               |   ✔    |    ✔     |      ⛔ (⛔)      |
-| [Tim **(tim)**](./bucket/tim.json)                              |  🎃🔶  |    ✔     |      ✔ (⛔)       |
-| [Oracle JDK 8 **(oraclejdk8)**](./TODO/oraclejdk8.json)         |   ✔    |    ✔     |      ✔ (⛔)       |
+| App name **(Scoop name)**                                                                                     | Tested | Checkver | Autoupdate (Hash) |
+| ------------------------------------------------------------------------------------------------------------- | :----: | :------: | :---------------: |
+| [Clash for Windows **(clash)**](./bucket/clash.json)                                                          |   ✔    |    ✔     |      ✔ (⛔)       |
+| [Meow **(meow)**](./bucket/meow.json)                                                                         |   ✔    |    ✔     |      ✔ (⛔)       |
+| [Office Tool Plus **(office-tool)**](./bucket/office-tool.json)                                               |   ✔    |    ✔     |      ✔ (⛔)       |
+| [万彩办公大师 **(officebox)**](./bucket/officebox.json)                                                       |   ✔    |    ✔     |      ✔ (⛔)       |
+| [微信 **(wechat)**](./bucket/wechat.json)                                                                     |   ✔    |    ✔     |      ✔ (⛔)       |
+| [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)                                                             |   ✔    |    ✔     |      ⛔ (⛔)      |
+| [Tim **(tim)**](./bucket/tim.json)                                                                            |  🎃🔶  |    ✔     |      ✔ (⛔)       |
+| [Oracle JDK 8 **(oraclejdk8)**](./bucket/oraclejdk8.json)                                                     |   ✔    |    ✔     |      ✔ (⛔)       |
+| [PicGo **(picgo)**](./bucket/picgo.json)(from[helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)) |   ✔    |    ✔     |      ✔ (⛔)       |
 
 -   🔶 Additional testing is needed
 -   ⭕ Not needed
