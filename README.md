@@ -21,9 +21,9 @@
 
 ## TODO
 
-| App name **(Scoop name)**                             | Tested | Checkver | Autoupdate (Hash) |
-| ----------------------------------------------------- | :----: | :------: | :---------------: |
-| [企业微信 **(wechat-work)**](./todo/wechat-work.json) |   ✔    |    ⛔    |      ⛔ (⛔)      |
+| App name **(Scoop name)**                               | Tested | Checkver | Autoupdate (Hash) |
+| ------------------------------------------------------- | :----: | :------: | :---------------: |
+| [企业微信 **(wechat-work)**](./bucket/wechat-work.json) |   ✔    |    ⛔    |      ⛔ (⛔)      |
 
 -   🔶 Additional testing is needed
 -   ⭕ Not needed
