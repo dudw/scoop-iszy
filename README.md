@@ -18,12 +18,13 @@
 | [Tim **(tim)**](./bucket/tim.json)                                                                             |  🎃🔶  |    ✔     |      ✔ (⛔)       |
 | [Oracle JDK 8 **(oraclejdk8)**](./bucket/oraclejdk8.json)                                                      |   ✔    |    ✔     |      ✔ (⛔)       |
 | [PicGo **(picgo)**](./bucket/picgo.json)(from [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)) |   ✔    |    ✔     |      ✔ (⛔)       |
+| [企业微信 **(wechat-work)**](./bucket/wechat-work.json)                                                        |   ✔    |    ✔     |      ✔ (⛔)       |
 
 ## TODO
 
-| App name **(Scoop name)**                               | Tested | Checkver | Autoupdate (Hash) |
-| ------------------------------------------------------- | :----: | :------: | :---------------: |
-| [企业微信 **(wechat-work)**](./bucket/wechat-work.json) |   ✔    |    ⛔    |      ⛔ (⛔)      |
+| App name **(Scoop name)** | Tested | Checkver | Autoupdate (Hash) |
+| ------------------------- | :----: | :------: | :---------------: |
+| N/A                       |        |          |                   |
 
 -   🔶 Additional testing is needed
 -   ⭕ Not needed
