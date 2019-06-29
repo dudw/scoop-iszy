@@ -1,14 +1,21 @@
 {
     "homepage": "https://work.weixin.qq.com/",
     "description": "企业微信",
-    "version": "2.8.5",
+    "version": "2.8.7.2013",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/foxmail/work_weixin/WXWork_2.8.5.2017.exe#/wechat.7z",
-    "hash": "c1f36eab516773b5e2d9872ef1a57db86f8ccbe1891509aa5ad509c67fff9cb7",
+    "url": "https://dl.softmgr.qq.com/original/Office/WXWork_2.8.7.2013_100004.exe#/wechat.7z",
+    "hash": "0927f9db2b7441fef51931148e13fd4857b533e0b2ef95ff78bb75b8eb643410",
     "shortcuts": [
         [
             "WXWork.exe",
             "企业微信"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://pc.qq.com/detail/14/detail_22554.html",
+        "re": "https://dl.softmgr.qq.com/original/Office/WXWork_(?<version>[\\d\\w.]+)_(?<short>[\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://dl.softmgr.qq.com/original/Office/WXWork_$matchVersion_$matchShort.exe#/wechat.7z"
+    }
 }
