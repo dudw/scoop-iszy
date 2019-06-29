@@ -5,10 +5,12 @@
     "license": "https://www.oracle.com/technetwork/java/javase/terms/license",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/frekele/oracle-java/releases/download/8u212-b10/jdk-8u212-windows-x64.exe#/dl.7z"
+            "url": "https://github.com/frekele/oracle-java/releases/download/8u212-b10/jdk-8u212-windows-x64.exe#/dl.7z",
+            "hash": "sha1:47524927f698af58a90b226e1b4c84d3232c21c5"
         },
         "32bit": {
-            "url": "https://github.com/frekele/oracle-java/releases/download/8u212-b10/jdk-8u212-windows-i586.exe#/dl.7z"
+            "url": "https://github.com/frekele/oracle-java/releases/download/8u212-b10/jdk-8u212-windows-i586.exe#/dl.7z",
+            "hash": "sha1:6e54a1d2eeb04a4ba512be96023571e93b8c96a2"
         }
     },
     "cookie": {
@@ -48,10 +50,18 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/frekele/oracle-java/releases/download/$version/jdk-$matchShort-windows-x64.exe#/dl.7z"
+                "url": "https://github.com/frekele/oracle-java/releases/download/$version/jdk-$matchShort-windows-x64.exe#/dl.7z",
+                "hash": {
+                    "type": "sha1",
+                    "url": "https://github.com/frekele/oracle-java/releases/download/$version/jdk-$matchShort-windows-x64.exe.sha1"
+                }
             },
             "32bit": {
-                "url": "https://github.com/frekele/oracle-java/releases/download/$version/jdk-$matchShort-windows-i586.exe#/dl.7z"
+                "url": "https://github.com/frekele/oracle-java/releases/download/$version/jdk-$matchShort-windows-i586.exe#/dl.7z",
+                "hash": {
+                    "type": "sha1",
+                    "url": "https://github.com/frekele/oracle-java/releases/download/$version/jdk-$matchShort-windows-i586.exe.sha1"
+                }
             }
         }
     }
