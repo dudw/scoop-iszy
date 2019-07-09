@@ -19,6 +19,7 @@
 | [Oracle JDK 8 **(oraclejdk8)**](./bucket/oraclejdk8.json)                                                      |   ✔    |    ✔     |      ✔ (⛔)       |
 | [PicGo **(picgo)**](./bucket/picgo.json)(from [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)) |   ✔    |    ✔     |      ✔ (⛔)       |
 | [企业微信 **(wechat-work)**](./bucket/wechat-work.json)                                                        |   ✔    |    ✔     |      ✔ (⛔)       |
+| [pgAdmin 4 **(pgadmin4-np)**](./bucket/pgadmin4-np.json)                                                       |   ✔    |    ✔     |      ✔ (⛔)       |
 
 ## TODO
 
