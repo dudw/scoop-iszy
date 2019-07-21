@@ -16,8 +16,8 @@
 | [Office Tool Plus **(office-tool)**](./bucket/office-tool.json)                                                                            |    ✔     |      ✔       |     ✔ (⛔)      |
 | [万彩办公大师 **(officebox)**](./bucket/officebox.json)                                                                                    |    ✔     |      ✔       |     ✔ (⛔)      |
 | [微信 **(wechat)**](./bucket/wechat.json)                                                                                                  |    ✔     |      ✔       |     ✔ (⛔)      |
-| [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)                                                                                          |    ✔     |      ✔       |     ⛔ (⛔)     |
-| [Tim **(tim)**](./bucket/tim.json)                                                                                                         |   🎃🔶   |      ✔       |     ✔ (⛔)      |
+| [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)                                                                                          |   🎃✔    |      ✔       |     ⛔ (⛔)     |
+| [Tim **(tim)**](./bucket/tim.json)                                                                                                         |   🎃✔    |      ✔       |     ✔ (⛔)      |
 | [Oracle JDK 8 **(oraclejdk8)**](./bucket/oraclejdk8.json)                                                                                  |    ✔     |      ✔       |     ✔ (⛔)      |
 | [PicGo **(picgo)**](./bucket/picgo.json)<br>(from [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket))                         |    ✔     |      ✔       |     ✔ (⛔)      |
 | [企业微信 **(wechat-work)**](./bucket/wechat-work.json)                                                                                    |    ✔     |      ✔       |     ✔ (⛔)      |
