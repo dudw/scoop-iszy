@@ -25,6 +25,7 @@
 | [PotPlayer **(potplayer)**](./bucket/potplayer.json)<br>(from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))               |    ✔     |      ✔       |     ✔ (⛔)      |
 | [Origin **(origin)**](./bucket/origin.json)<br>(from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))                        |    ✔     |      ♻       |      ♻ (♻)      |
 | [Uplay **(uplay)**](./bucket/uplay.json)<br>(from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))                           |    ✔     |      ♻       |      ♻ (♻)      |
+| [Oracle Instant Client 11 **(OracleInstantClient11)**](./bucket/OracleInstantClient11.json)                                                |    ✔     |      ✔       |     ✔ (⛔)      |
 
 -   🔶 需要额外测试
 -   ⭕ 不需要
