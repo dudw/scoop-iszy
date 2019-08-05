@@ -9,23 +9,21 @@
 
 ## Manifests
 
-| 应用名称 **(Scoop 内名称)**                                                                                                                | 经过测试 | 自动检测版本 | 自动更新 (Hash) |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | :------: | :----------: | :-------------: |
-| [Clash for Windows **(clash)**](./bucket/clash.json)                                                                                       |    ✔     |      ✔       |     ✔ (⛔)      |
-| [Meow **(meow)**](./bucket/meow.json)                                                                                                      |    ✔     |      ✔       |     ✔ (⛔)      |
-| [Office Tool Plus **(office-tool)**](./bucket/office-tool.json)                                                                            |    ✔     |      ✔       |     ✔ (⛔)      |
-| [万彩办公大师 **(officebox)**](./bucket/officebox.json)                                                                                    |    ✔     |      ✔       |     ✔ (⛔)      |
-| [微信 **(wechat)**](./bucket/wechat.json)                                                                                                  |    ✔     |      ✔       |     ✔ (⛔)      |
-| [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)                                                                                          |   🎃✔    |      ✔       |     ⛔ (⛔)     |
-| [Tim **(tim)**](./bucket/tim.json)                                                                                                         |   🎃✔    |      ✔       |     ✔ (⛔)      |
-| [Oracle JDK 8 **(oraclejdk8)**](./bucket/oraclejdk8.json)                                                                                  |    ✔     |      ✔       |     ✔ (⛔)      |
-| [PicGo **(picgo)**](./bucket/picgo.json)<br>(from [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket))                         |    ✔     |      ✔       |     ✔ (⛔)      |
-| [企业微信 **(wechat-work)**](./bucket/wechat-work.json)                                                                                    |    ✔     |      ✔       |     ✔ (⛔)      |
-| [pgAdmin 4 **(pgadmin4-np)**](./bucket/pgadmin4-np.json)<br>(from [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable)) |    ✔     |      ✔       |     ✔ (⛔)      |
-| [PotPlayer **(potplayer)**](./bucket/potplayer.json)<br>(from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))               |    ✔     |      ✔       |     ✔ (⛔)      |
-| [Origin **(origin)**](./bucket/origin.json)<br>(from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))                        |    ✔     |      ♻       |      ♻ (♻)      |
-| [Uplay **(uplay)**](./bucket/uplay.json)<br>(from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))                           |    ✔     |      ♻       |      ♻ (♻)      |
-| [Oracle Instant Client 11 **(OracleInstantClient11)**](./bucket/OracleInstantClient11.json)                                                |    ✔     |      ✔       |     ✔ (⛔)      |
+没在这里列举的不是我写的。。。自用 bucket，大家包涵一下啦。。。
+
+| 应用名称 **(Scoop 内名称)**                                                                 | 经过测试 | 自动检测版本 | 自动更新 (Hash) |
+| ------------------------------------------------------------------------------------------- | :------: | :----------: | :-------------: |
+| [Clash for Windows **(clash)**](./bucket/clash.json)                                        |    ✔     |      ✔       |     ✔ (⛔)      |
+| [Meow **(meow)**](./bucket/meow.json)                                                       |    ✔     |      ✔       |     ✔ (⛔)      |
+| [Office Tool Plus **(office-tool)**](./bucket/office-tool.json)                             |    ✔     |      ✔       |     ✔ (⛔)      |
+| [万彩办公大师 **(officebox)**](./bucket/officebox.json)                                     |    ✔     |      ✔       |     ✔ (⛔)      |
+| [微信 **(wechat)**](./bucket/wechat.json)                                                   |    ✔     |      ✔       |     ✔ (⛔)      |
+| [Winrar **(winrar-sc)**](./bucket/winrar-sc.json)                                           |   🎃✔    |      ✔       |     ⛔ (⛔)     |
+| [Tim **(tim)**](./bucket/tim.json)                                                          |   🎃✔    |      ✔       |     ✔ (⛔)      |
+| [Oracle JDK 8 **(oraclejdk8)**](./bucket/oraclejdk8.json)                                   |    ✔     |      ✔       |     ✔ (⛔)      |
+| [企业微信 **(wechat-work)**](./bucket/wechat-work.json)                                     |    ✔     |      ✔       |     ✔ (⛔)      |
+| [Oracle Instant Client 11 **(OracleInstantClient11)**](./bucket/OracleInstantClient11.json) |    ✔     |      ✔       |     ✔ (⛔)      |
+| [Oracle Instant Client **(OracleInstantClient)**](./bucket/OracleInstantClient.json)        |    ✔     |      ✔       |     ✔ (⛔)      |
 
 -   🔶 需要额外测试
 -   ⭕ 不需要
