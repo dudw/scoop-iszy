@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "description": "A Windows GUI based on Clash https://docs.cfw.lbyczf.com/",
-    "version": "0.7.0",
+    "version": "0.7.2",
     "license": "MIT",
-    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.7.0/Clash.for.Windows-0.7.0-win.zip",
-    "hash": "2c2c281c103d32305fc38fa5e50c00116330c60f7b67cea936a7deaffab9f91f",
+    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.7.2/Clash.for.Windows-0.7.2-win.zip",
+    "hash": "7ac62f69155fc3bf92b678b7f277027dacdf3dfa32884a1222a9e36e7540daad",
     "shortcuts": [
         [
             "Clash for Windows.exe",
