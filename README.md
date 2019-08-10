@@ -24,6 +24,7 @@
 | [企业微信 **(wechat-work)**](./bucket/wechat-work.json)                                     |    ✔     |      ✔       |     ✔ (⛔)      |
 | [Oracle Instant Client 11 **(OracleInstantClient11)**](./bucket/OracleInstantClient11.json) |    ✔     |      ✔       |     ✔ (⛔)      |
 | [Oracle Instant Client **(OracleInstantClient)**](./bucket/OracleInstantClient.json)        |    ✔     |      ✔       |     ✔ (⛔)      |
+| [LAV Filters **(lavfilters)**](./bucket/lavfilters.json)                                    |    ✔     |      ✔       |     ✔ (⛔)      |
 
 -   🔶 需要额外测试
 -   ⭕ 不需要
