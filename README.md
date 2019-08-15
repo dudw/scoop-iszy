@@ -11,28 +11,33 @@
 
 ### 原创
 
-| 应用名称                                                        |     Scoop 内名称      |
-| --------------------------------------------------------------- | :-------------------: |
-| [Clash for Windows](./bucket/clash.json)                        |         clash         |
-| [LAV Filters](./bucket/lavfilters.json)                         |      lavfilters       |
-| [Meow](./bucket/meow.json)                                      |         meow          |
-| [Office Tool Plus](./bucket/office-tool.json)                   |      office-tool      |
-| [万彩办公大师](./bucket/officebox.json)                         |       officebox       |
-| [Oracle Instant Client](./bucket/OracleInstantClient.json)      |  OracleInstantClient  |
-| [Oracle Instant Client 11](./bucket/OracleInstantClient11.json) | OracleInstantClient11 |
-| [Oracle JDK 8](./bucket/oraclejdk8.json)                        |      oraclejdk8       |
-| [Tim](./bucket/tim.json)                                        |          tim          |
-| [微信](./bucket/wechat.json)                                    |        wechat         |
-| [企业微信](./bucket/wechat-work.json)                           |      wechat-work      |
-| [Winrar](./bucket/winrar-sc.json)                               |       winrar-sc       |
+| 应用名称                                                                                     |                         Scoop 内名称                         |
+| -------------------------------------------------------------------------------------------- | :----------------------------------------------------------: |
+| [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)                        |                 [clash](./bucket/clash.json)                 |
+| [LAV Filters](https://github.com/Nevcairiel/LAVFilters)                                      |            [lavfilters](./bucket/lavfilters.json)            |
+| [Meow](https://github.com/ZvonimirSun/MEOW)                                                  |                  [meow](./bucket/meow.json)                  |
+| [Office Tool Plus](https://otp.landian.vip/zh-cn/)                                           |           [office-tool](./bucket/office-tool.json)           |
+| [万彩办公大师](http://www.wofficebox.com/)                                                   |             [officebox](./bucket/officebox.json)             |
+| [Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.html)    |   [OracleInstantClient](./bucket/OracleInstantClient.json)   |
+| [Oracle Instant Client 11](https://www.oracle.com/database/technologies/instant-client.html) | [OracleInstantClient11](./bucket/OracleInstantClient11.json) |
+| [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/overview/index.html)           |            [oraclejdk8](./bucket/oraclejdk8.json)            |
+| [Tim](https://office.qq.com/)                                                                |                   [tim](./bucket/tim.json)                   |
+| [微信](https://pc.weixin.qq.com/)                                                            |                [wechat](./bucket/wechat.json)                |
+| [企业微信](https://work.weixin.qq.com/)                                                      |           [wechat-work](./bucket/wechat-work.json)           |
+| [WinRAR](https://www.win-rar.com/)                                                           |             [winrar-sc](./bucket/winrar-sc.json)             |
 
 ### 收集
 
-| 应用名称                                  | Scoop 内名称  | 来源                                                                    |
-| ----------------------------------------- | :-----------: | ----------------------------------------------------------------------- |
-| [网易云音乐](./bucket/netease-music.json) | netease-music | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
-| [Origin](./bucket/origin.json)            |    origin     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
-| [pgAdmin 4](./bucket/pgadmin4-np.json)    |  pgadmin4-np  | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
-| [picgo](./bucket/picgo.json)              |     picgo     | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
-| [potplayer](./bucket/potplayer.json)      |   potplayer   | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
-| [Uplay](./bucket/uplay.json)              |     uplay     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
+| 应用名称                                      |                 Scoop 内名称                 | 来源                                                                    |
+| --------------------------------------------- | :------------------------------------------: | ----------------------------------------------------------------------- |
+| [网易云音乐](https://music.163.com/)          | [netease-music](./bucket/netease-music.json) | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
+| [Origin EA](https://www.origin.com/)          |        [origin](./bucket/origin.json)        | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
+| [pgAdmin 4](https://www.pgadmin.org)          |   [pgadmin4-np](./bucket/pgadmin4-np.json)   | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
+| [PicGo](https://github.com/Molunerfinn/PicGo) |         [picgo](./bucket/picgo.json)         | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
+| [PotPlayer](https://potplayer.daum.net)       |     [potplayer](./bucket/potplayer.json)     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
+| [Uplay 育碧](https://uplay.ubi.com/)          |         [uplay](./bucket/uplay.json)         | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
+
+**收集理由：**
+
+-   个人使用，不喜欢添加太多 bucket
+-   可能原 bucket 更新不够及时
