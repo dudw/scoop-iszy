@@ -3,8 +3,8 @@
     "description": "TIM. 专注团队沟通协作",
     "version": "2.3.2",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/qqfile/qq/PCTIM2.3.2/21158/TIM2.3.2.21158.exe",
-    "hash": "212f45d12fa9d705d4caa99d6a674a42f3818d83d364f7e5c1c70028e3a0e77f",
+    "url": "https://dldir1.qq.com/qqfile/qq/TIM2.3.2/21168/TIM2.3.2.21168.exe",
+    "hash": "d25ec1458e67919b02ba990c6bd1ed57ee7c36a71ad2d59c9854d20fb4203356",
     "installer": {
         "args": "/s"
     },
@@ -13,9 +13,9 @@
     },
     "checkver": {
         "url": "https://office.qq.com/download.html",
-        "re": "https://dldir1.qq.com/qqfile/qq/PCTIM(?<version>[\\d\\w.]+)/(?<short>[\\d.]+)/"
+        "re": "https://dldir1.qq.com/qqfile/qq/TIM(?<version>[\\d\\w.]+)/(?<short>[\\d.]+)/TIM"
     },
     "autoupdate": {
-        "url": "https://dldir1.qq.com/qqfile/qq/PCTIM$matchVersion/$matchShort/TIM$matchVersion.$matchShort.exe"
+        "url": "https://dldir1.qq.com/qqfile/qq/TIM$matchVersion/$matchShort/TIM$matchVersion.$matchShort.exe"
     }
 }
