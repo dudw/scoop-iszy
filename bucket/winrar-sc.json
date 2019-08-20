@@ -5,10 +5,12 @@
     "license": "https://www.win-rar.com/winrarlicense.html?&L=0",
     "architecture": {
         "64bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190509/wrr/winrar-x64-571sc.exe"
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190509/wrr/winrar-x64-571sc.exe",
+            "hash": "6a416738f912594fc99d5e9b2ce0572658c82871213dd191496457c2975479f6"
         },
         "32bit": {
-            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190509/wrr/wrar571sc.exe"
+            "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc20190509/wrr/wrar571sc.exe",
+            "hash": "587da361d9be71feec0ae17cb6e873adcee8000c941a9e6f51fe224bbd038a0c"
         }
     },
     "bin": [
@@ -17,9 +19,10 @@
     ],
     "persist": "rarreg.key",
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\rarreg.key\")) {",
-        "    Write-Host 'Key does not exist' -f Yellow",
-        "    New-Item \"$dir\\rarreg.key\" -Type File | Out-Null",
+        "$file = 'rarreg.key'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "    New-Item \"$dir\\$file\" -Type File | Out-Null",
         "}"
     ],
     "installer": {

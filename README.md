@@ -2,8 +2,6 @@
 
 `scoop bucket add iszy 'https://github.com/ZvonimirSun/scoop-iszy.git'`
 
-仅用于我个人使用
-
 -   [Scoop bucket 模板](https://github.com/Ash258/GenericBucket)
 -   [Manifests](#manifests)
 
