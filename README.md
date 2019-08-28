@@ -35,7 +35,6 @@
 | [pgAdmin 4](https://www.pgadmin.org)          |   [pgadmin4-np](./bucket/pgadmin4-np.json)   | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
 | [PicGo](https://github.com/Molunerfinn/PicGo) |         [picgo](./bucket/picgo.json)         | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
 | [PotPlayer](https://potplayer.daum.net)       |     [potplayer](./bucket/potplayer.json)     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
-| [Uplay 育碧](https://uplay.ubi.com/)          |         [uplay](./bucket/uplay.json)         | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
 
 **收集理由：**
 
