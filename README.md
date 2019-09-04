@@ -21,7 +21,6 @@
 | [Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.html)    |   [OracleInstantClient](./bucket/OracleInstantClient.json)   |
 | [Oracle Instant Client 11](https://www.oracle.com/database/technologies/instant-client.html) | [OracleInstantClient11](./bucket/OracleInstantClient11.json) |
 | [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/overview/index.html)           |            [oraclejdk8](./bucket/oraclejdk8.json)            |
-| [Tim](https://office.qq.com/)                                                                |                   [tim](./bucket/tim.json)                   |
 | [微信](https://pc.weixin.qq.com/)                                                            |                [wechat](./bucket/wechat.json)                |
 | [企业微信](https://work.weixin.qq.com/)                                                      |           [wechat-work](./bucket/wechat-work.json)           |
 | [WinRAR](https://www.win-rar.com/)                                                           |             [winrar-sc](./bucket/winrar-sc.json)             |
@@ -38,6 +37,7 @@
 | [PicGo](https://github.com/Molunerfinn/PicGo) |         [picgo](./bucket/picgo.json)         | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
 | [PotPlayer](https://potplayer.daum.net)       |     [potplayer](./bucket/potplayer.json)     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
 | [QQ](https://im.qq.com/)                      |            [qq](./bucket/qq.json)            | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
+| [Tim](https://office.qq.com/)                 |           [tim](./bucket/tim.json)           | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
 
 **收集理由：**
 
