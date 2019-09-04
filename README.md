@@ -28,6 +28,8 @@
 
 ### 收集
 
+可能做了一些修改。
+
 | 应用名称                                      |                 Scoop 内名称                 | 来源                                                                    |
 | --------------------------------------------- | :------------------------------------------: | ----------------------------------------------------------------------- |
 | [网易云音乐](https://music.163.com/)          | [netease-music](./bucket/netease-music.json) | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
@@ -35,6 +37,7 @@
 | [pgAdmin 4](https://www.pgadmin.org)          |   [pgadmin4-np](./bucket/pgadmin4-np.json)   | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
 | [PicGo](https://github.com/Molunerfinn/PicGo) |         [picgo](./bucket/picgo.json)         | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
 | [PotPlayer](https://potplayer.daum.net)       |     [potplayer](./bucket/potplayer.json)     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
+| [QQ](https://im.qq.com/)                      |            [qq](./bucket/qq.json)            | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
 
 **收集理由：**
 
