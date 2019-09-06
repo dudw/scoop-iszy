@@ -25,19 +25,23 @@
 | [企业微信](https://work.weixin.qq.com/)                                                      |           [wechat-work](./bucket/wechat-work.json)           |
 | [WinRAR](https://www.win-rar.com/)                                                           |             [winrar-sc](./bucket/winrar-sc.json)             |
 
+### 存在问题
+
+| 应用名称                      |      Scoop 内名称      |
+| ----------------------------- | :--------------------: |
+| [Tim](https://office.qq.com/) | [tim](./test/tim.json) |
+
 ### 收集
 
 可能做了一些修改。
 
-| 应用名称                                      |                 Scoop 内名称                 | 来源                                                                    |
-| --------------------------------------------- | :------------------------------------------: | ----------------------------------------------------------------------- |
-| [网易云音乐](https://music.163.com/)          | [netease-music](./bucket/netease-music.json) | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
-| [Origin EA](https://www.origin.com/)          |        [origin](./bucket/origin.json)        | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
-| [pgAdmin 4](https://www.pgadmin.org)          |   [pgadmin4-np](./bucket/pgadmin4-np.json)   | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
-| [PicGo](https://github.com/Molunerfinn/PicGo) |         [picgo](./bucket/picgo.json)         | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
-| [PotPlayer](https://potplayer.daum.net)       |     [potplayer](./bucket/potplayer.json)     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
-| [QQ](https://im.qq.com/)                      |            [qq](./bucket/qq.json)            | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
-| [Tim](https://office.qq.com/)                 |           [tim](./bucket/tim.json)           | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
+| 应用名称                                      |                  Scoop 内名称                  | 来源                                                                    |
+| --------------------------------------------- | :--------------------------------------------: | ----------------------------------------------------------------------- |
+| [网易云音乐](https://music.163.com/)          | [netease-music](./external/netease-music.json) | [h404bi/dorado](https://github.com/h404bi/dorado)                       |
+| [Origin EA](https://www.origin.com/)          |        [origin](./external/origin.json)        | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
+| [pgAdmin 4](https://www.pgadmin.org)          |   [pgadmin4-np](./external/pgadmin4-np.json)   | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
+| [PicGo](https://github.com/Molunerfinn/PicGo) |         [picgo](./external/picgo.json)         | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
+| [PotPlayer](https://potplayer.daum.net)       |     [potplayer](./external/potplayer.json)     | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
 
 **收集理由：**
 
