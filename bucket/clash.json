@@ -20,10 +20,6 @@
     "persist": "resources\\static\\files",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe#/clash.7z",
-        "hash": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases",
-            "regex": "exe: $sha256"
-        }
+        "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe#/clash.7z"
     }
 }
