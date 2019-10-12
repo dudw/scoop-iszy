@@ -2,7 +2,7 @@
 
 `scoop bucket add iszy 'https://github.com/ZvonimirSun/scoop-iszy.git'`
 
-个人使用，软件版本可能更新不及时，如果介意可以 fork 一份，自己保持更新。本 Repository 采用 Ash258 大佬的项目模板，大部分内容已写 checkver 和 autoupdate 语句，可通过 Ash258 大佬已经写好的脚本自动更新。
+本 Repository 主要用于个人使用，采用 Ash258 大佬的项目模板，已采用 Github Actions 自动更新。
 
 -   [Scoop bucket 模板](https://github.com/Ash258/GenericBucket)
 -   [Manifests](#manifests)
