@@ -1,10 +1,10 @@
 {
     "homepage": "https://work.weixin.qq.com/",
     "description": "企业微信",
-    "version": "2.8.16.1205",
+    "version": "2.8.16.1210",
     "license": "Freeware",
-    "url": "https://dl.softmgr.qq.com/original/Office/WXWork_2.8.16.1205_100004.exe#/wechat.7z",
-    "hash": "cfa45c1e105bbdf631d2bb20965c6ae9c8a093f119dcf1ab214f94867bc3c148",
+    "url": "https://dl.softmgr.qq.com/original/Office/WXWork_2.8.16.1210_100004.exe#/wechat.7z",
+    "hash": "c59ed7ddb73e548840a4bb34b3c74f129c09edc9446f71695c70520f2e4bbcb0",
     "shortcuts": [
         [
             "WXWork.exe",
