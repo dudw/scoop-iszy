@@ -15,6 +15,7 @@
 | -------------------------------------------------------------------------------------------- | :----------------------------------------------------------: |
 | [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)                        |                 [clash](./bucket/clash.json)                 |
 | [LAV Filters](https://github.com/Nevcairiel/LAVFilters)                                      |            [lavfilters](./bucket/lavfilters.json)            |
+| [洛雪音乐助手](https://github.com/lyswhut/lx-music-desktop)                                  |              [lx-music](./bucket/lx-music.json)              |
 | [Meow](https://github.com/ZvonimirSun/MEOW)                                                  |                  [meow](./bucket/meow.json)                  |
 | [Office Tool Plus](https://otp.landian.vip/zh-cn/)                                           |           [office-tool](./bucket/office-tool.json)           |
 | [万彩办公大师](http://www.wofficebox.com/)                                                   |             [officebox](./bucket/officebox.json)             |
