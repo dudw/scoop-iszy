@@ -3,7 +3,7 @@
     "description": "Office Tool Plus 基于 Office Deployment Tool 打造，可以很轻松地部署 Office。Office Tool Lite 基于系统 API 开发，更适用于多终端部署操作。无论你是个体还是团队，Office Tool 都是您的 Office 小助手。",
     "version": "7.3",
     "license": "GPL-3.0+",
-    "url": "https://otp.microrice.co/Office%20Tool%20v7.3.zip",
+    "url": "https://download.coolhub.top/Office%20Tool%20v7.3.zip",
     "hash": "14a6ea111a8fe2663c42df6e155068500d2e8a84b440f1a52f39fdf96755fae8",
     "shortcuts": [
         [
@@ -12,10 +12,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://otp.microrice.co",
+        "url": "https://download.coolhub.top",
         "re": "Office%20Tool%20v([\\d+\\.]+\\w+?).zip"
     },
     "autoupdate": {
-        "url": "https://otp.microrice.co/Office%20Tool%20v$version.zip"
+        "url": "https://download.coolhub.top/Office%20Tool%20v$version.zip"
     }
 }
