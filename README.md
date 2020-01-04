@@ -26,12 +26,6 @@
 | [企业微信](https://work.weixin.qq.com/)                                                      |           [wechat-work](./bucket/wechat-work.json)           |
 | [WinRAR](https://www.win-rar.com/)                                                           |             [winrar-sc](./bucket/winrar-sc.json)             |
 
-### 存在问题
-
-| 应用名称                      |      Scoop 内名称      |
-| ----------------------------- | :--------------------: |
-| [Tim](https://office.qq.com/) | [tim](./test/tim.json) |
-
 ### 收集
 
 可能做了一些修改。
