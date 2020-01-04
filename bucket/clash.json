@@ -16,9 +16,11 @@
         "Get-ChildItem -Path \"$dir\\`$PLUGINSDIR\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\`$PLUGINSDIR\"",
         "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\"",
         "Remove-Item -Recurse \"$dir\\`$PLUGINSDIR\"",
-        "if (-not (Test-Path \"$persist_dir\\config.yml\")) {",
-        "    Write-Host 'File config.yml does not exists. Creating.' -f Yellow",
+        "if (-not (Test-Path \"$persist_dir\\resources\\static\\files\")) {",
         "    mkdir -p \"$persist_dir\\resources\\static\\files\"",
+        "}",
+        "if (-not (Test-Path \"$persist_dir\\resources\\static\\files\\config.yml\")) {",
+        "    Write-Host 'File config.yml does not exists. Creating.' -f Yellow",
         "    Copy-Item \"$dir\\resources\\static\\files\\default\\config.yml\" -Destination \"$persist_dir\\resources\\static\\files\\config.yml\" -Force",
         "}"
     ],
