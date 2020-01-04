@@ -15,9 +15,17 @@
         "Remove-Item -Recurse \"$dir\\Uninstall Clash for Windows.exe\"",
         "Get-ChildItem -Path \"$dir\\`$PLUGINSDIR\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\`$PLUGINSDIR\"",
         "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\"",
-        "Remove-Item -Recurse \"$dir\\`$PLUGINSDIR\""
+        "Remove-Item -Recurse \"$dir\\`$PLUGINSDIR\"",
+        "if (-not (Test-Path \"$persist_dir\\config.yml\")) {",
+        "    Write-Host 'File config.yml does not exists. Creating.' -f Yellow",
+        "    mkdir -p \"$persist_dir\\resources\\static\\files\"",
+        "    Copy-Item \"$dir\\resources\\static\\files\\default\\config.yml\" -Destination \"$persist_dir\\resources\\static\\files\\config.yml\" -Force",
+        "}"
     ],
-    "persist": "resources\\static\\files",
+    "persist": [
+        "resources\\static\\files\\profiles",
+        "resources\\static\\files\\config.yml"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe#/clash.7z",
