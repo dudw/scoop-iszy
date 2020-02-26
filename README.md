@@ -22,6 +22,7 @@
 | [Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.html)    |   [OracleInstantClient](./bucket/OracleInstantClient.json)   |
 | [Oracle Instant Client 11](https://www.oracle.com/database/technologies/instant-client.html) | [OracleInstantClient11](./bucket/OracleInstantClient11.json) |
 | [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/overview/index.html)           |            [oraclejdk8](./bucket/oraclejdk8.json)            |
+| [Dreamcast 绿色版 QQ](http://dreamcast2.ys168.com/)                                          |          [qq-dreamcast](./bucket/qq-dreamcast.json)          |
 | [微信](https://pc.weixin.qq.com/)                                                            |                [wechat](./bucket/wechat.json)                |
 | [企业微信](https://work.weixin.qq.com/)                                                      |           [wechat-work](./bucket/wechat-work.json)           |
 | [WinRAR](https://www.win-rar.com/)                                                           |             [winrar-sc](./bucket/winrar-sc.json)             |
