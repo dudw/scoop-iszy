@@ -1,6 +1,6 @@
 {
     "version": "nightly",
-    "description": "Origin. An online gaming, digital distribution and digital rights management platform developed by Electronic Arts.",
+    "description": "Origin. An online gaming, digital distribution and digital rights management platform developed by Electronic Arts. (Collected from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))",
     "homepage": "https://www.origin.com/",
     "license": "Freeware",
     "url": "https://download.dm.origin.com/origin/live/OriginSetup.exe#/cosi.7z",

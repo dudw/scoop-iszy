@@ -1,6 +1,6 @@
 {
     "version": "1.7.20977",
-    "description": "PotPlayer. A multimedia software player developed for the Microsoft Windows operating system.",
+    "description": "PotPlayer. A multimedia software player developed for the Microsoft Windows operating system. (Collected from [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258))",
     "homepage": "https://potplayer.daum.net/",
     "license": {
         "identifier": "Freeware",
