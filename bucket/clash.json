@@ -19,14 +19,14 @@
         "if (-not (Test-Path \"$persist_dir\\resources\\static\\files\")) {",
         "    mkdir -p \"$persist_dir\\resources\\static\\files\"",
         "}",
-        "if (-not (Test-Path \"$persist_dir\\resources\\static\\files\\config.yml\")) {",
-        "    Write-Host 'File config.yml does not exists. Creating.' -f Yellow",
-        "    Copy-Item \"$dir\\resources\\static\\files\\default\\config.yml\" -Destination \"$persist_dir\\resources\\static\\files\\config.yml\" -Force",
+        "if (-not (Test-Path \"$persist_dir\\resources\\static\\files\\config.yaml\")) {",
+        "    Write-Host 'File config.yaml does not exists. Creating.' -f Yellow",
+        "    Copy-Item \"$dir\\resources\\static\\files\\default\\config.yaml\" -Destination \"$persist_dir\\resources\\static\\files\\config.yaml\" -Force",
         "}"
     ],
     "persist": [
         "resources\\static\\files\\profiles",
-        "resources\\static\\files\\config.yml"
+        "resources\\static\\files\\config.yaml"
     ],
     "checkver": "github",
     "autoupdate": {
