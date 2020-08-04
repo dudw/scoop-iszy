@@ -1,13 +1,13 @@
 on:
   schedule:
-  - cron: '0 * * * *'
+    - cron: "0 * * * *"
 name: Excavator
 jobs:
   excavate:
     name: Excavator
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Excavate
         uses: Ash258/Scoop-GithubActions@stable
         env:
