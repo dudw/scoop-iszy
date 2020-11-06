@@ -1,134 +1,43 @@
-# Generic scoop bucket
+# Scoop ISZY Bucket ![GitHub repo size](https://img.shields.io/github/repo-size/zvonimirsun/scoop-iszy?style=flat&logo=github) [![Build status](https://img.shields.io/appveyor/ci/zvonimirsun/scoop-iszy/master?style=flat&logo=appveyor)](https://ci.appveyor.com/project/ZvonimirSun/scoop-iszy)
 
-❗❗🎉 Repository was converted into Template. See [blog](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/?utm_campaign=1559837005&utm_medium=social&utm_source=twitter&utm_content=1559837005) for more information. 🎉❗❗
+`scoop bucket add iszy 'https://github.com/ZvonimirSun/scoop-iszy.git'`
 
-In this repository you will find everything you need to know about creating custom bucket with appveyor support.
+本 Repository 主要用于个人使用，采用 Ash258 大佬的项目模板，已采用 Github Actions 自动更新。
 
-- [Files and helpers](#files-and-helpers)
-    - [`bucket` Folder](#bucket-folder)
-    - [`bin` Folder](#bin-folder)
-    - [`Bucket.Tests.ps1` File](#buckettestsps1-file)
-    - [`.vscode` Folder](#vscode-folder)
-    - [`.github` Folder](#github-folder)
-    - [`config files`](#config-files)
-- [How to use and adopt this bucket](#how-to-use-and-adopt-this-bucket)
+- [Scoop bucket 模板](https://github.com/Ash258/GenericBucket)
+- [Manifests](#manifests)
 
-## Files and helpers
+## Manifests
 
-### `bucket` Folder
+### 原创
 
-- All manifests belong here
-- `.gitkeep` file could be removed after you push your first manifest
+| 应用名称                                                                                     |                         Scoop 内名称                         |
+| -------------------------------------------------------------------------------------------- | :----------------------------------------------------------: |
+| [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)                        |     [clash-for-windows](./bucket/clash-for-windows.json)     |
+| [LAV Filters](https://github.com/Nevcairiel/LAVFilters)                                      |            [lavfilters](./bucket/lavfilters.json)            |
+| [洛雪音乐助手](https://github.com/lyswhut/lx-music-desktop)                                  |              [lx-music](./bucket/lx-music.json)              |
+| [Meow](https://github.com/ZvonimirSun/MEOW)                                                  |                  [meow](./bucket/meow.json)                  |
+| [万彩办公大师](http://www.wofficebox.com/)                                                   |             [officebox](./bucket/officebox.json)             |
+| [Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.html)    |   [OracleInstantClient](./bucket/OracleInstantClient.json)   |
+| [Oracle Instant Client 11](https://www.oracle.com/database/technologies/instant-client.html) | [OracleInstantClient11](./bucket/OracleInstantClient11.json) |
+| [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/overview/index.html)           |            [oraclejdk8](./bucket/oraclejdk8.json)            |
+| [Dreamcast 绿色版 QQ](http://dreamcast2.ys168.com/)                                          |          [qq-dreamcast](./bucket/qq-dreamcast.json)          |
+| [微信](https://pc.weixin.qq.com/)                                                            |                [wechat](./bucket/wechat.json)                |
+| [企业微信](https://work.weixin.qq.com/)                                                      |           [wechat-work](./bucket/wechat-work.json)           |
+| [WinRAR](https://www.win-rar.com/)                                                           |             [winrar-sc](./bucket/winrar-sc.json)             |
 
-### `bin` Folder
+### 收集
 
-Scripts which will save you time while debuging and writing manifests.
-If you need help how to use them just run `Get-Help .\bin\<BINARY>.ps1`.
+可能做了一些修改。
 
-### `Bucket.Tests.ps1` File
+| 应用名称                                      |               Scoop 内名称               | 来源                                                                    |
+| --------------------------------------------- | :--------------------------------------: | ----------------------------------------------------------------------- |
+| [Origin EA](https://www.origin.com/)          |      [origin](./bucket/origin.json)      | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
+| [pgAdmin 4](https://www.pgadmin.org)          | [pgadmin4-np](./bucket/pgadmin4-np.json) | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
+| [PicGo](https://github.com/Molunerfinn/PicGo) |       [picgo](./bucket/picgo.json)       | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
+| [PotPlayer](https://potplayer.daum.net)       |   [potplayer](./bucket/potplayer.json)   | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
 
-- Test which are executed inside Appveyor pipeline
-- Could be configured as `pre_commit` hook
+**收集理由：**
 
-### `.vscode` Folder
-
-Contains all syntax highlighting, code formating, manifest creating tools you could use.
-
-- Extensions
-    - All extensions which will save your time while writing manifests are in recommended sections
-    - You will be notified about installing them when you open project
-- Settings
-    - All settings are set to be compatible with Appveyor pipeline and upstream (official) repositories
-        - No need to worry about formating restrictions between repositories.
-- Code snippets
-    - > Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
-    - You could use workspace wide code snippets for speed up manifest creating
-    - While editing json file write partitial name of snippet and press `tab`
-    - Available Json snippets:
-        - `app`
-            - Create default manifest structure
-        - `appArch`
-            - Create default manifest structure with full acrchitecture
-        - `arch`
-            - Create only architecture property with 64bit and 32bit
-        - `upAr`
-            - Create autoupdate property with architecture
-        - `persistCheck`
-            - Installer / pre_install script for checking if file is already persisted or need to be created
-
-### `.github` Folder
-
-GitHub repository configuration.
-
-- `workflows` folder
-    - Linux (legacy) version [GitHub Actions](https://github.com/features/actions) configuration for automatic issue/PR/updates handling.
-    - Windows version of actions could be used for better and future proof implementation (see <https://github.com/Ash258/Scoop-GithubActions/tree/main-win> for updated configs)
-- `CODEOWNERS`
-    - Pull requests will request review for users defined in this file
-- `PULL REQUEST TEMPLATE`
-    - Prefilled pull request types with proper titles
-- `ISSUE TEMPLATE`
-    - The most used issue templates for users to select and prefilled with required information and labels
-
-### `config files`
-
-- `.appveyor.yml`
-    - Definition of Appveyor CI pipeline
-- `.editorconfig`
-    - Universal configuration file, compatible with all types of editors
-    - Defines how files should look
-- `.gitattributes`
-    - Simplifying line endings for git
-    - No need to configure `auto.clrf` setting on each clone or new workspaces
-- `Bucket.Tests.ps1`
-    - Test which are executed inside Appveyor pipeline
-    - Could be configured as `pre_commit` hook
-
-## How to use and adopt this bucket
-
-1. Click on `Use this template` to create new repository in your account with same files
-1. Open project settings and **give your bucket in new name**
-1. Add proper description of repository
-    - Information about what type of manifests could be found here
-1. Add `scoop-bucket` tag for repository
-    - Your manifests will be automatically available at <https://scoop-docs.now.sh/apps/>
-1. Enable appveyor CI/CD
-    1. Register / Login to [Appveyor](https://ci.appveyor.com/login)
-    1. Click `New Project`
-    1. From Left Panel, choose your source control variant (Github)
-    1. From Right Panel, choose repository with bucket and click `+ Add`
-    1. 🎉 Project created and ready to build 🎉
-    1. Get Badge URL
-        1. Open Appveyor Project settings
-        1. Navigate to Badges
-        1. Copy `Branch Sample markdown code` snippet for further usage
-            - Only master branch is better, since you can freely test in other branches and do not mystificate users
-            - [You could use alternative styles](https://shields.io/category/build#styles)
-1. Clone project into some folder
-    - `git clone git@github.com:USER/REPO.git MyAwesomeBucket`
-    - or
-    - `git clone https://github.com/USER/REPO.git MyAwesomeBucket`
-1. Open vscode with this clone
-    - `code MyAwesomeBucket`
-1. _[optional]_ Configure remote repository
-    1. `git remote add 'upstream' 'https://github.com/Ash258/GenericBucket.git'`
-    - This step will allow you to synchronize changes with this template repository
-    - If some changes are pushed into this repository and you want to reflect them into your bucket, you can simply do something like:
-        - `git fetch --all`
-        - `git checkout -B upstream-master -t upstream/master`
-        - Do changes
-        - `git merge master` or create PR in github
-1. Create proper README.md
-    1. [Open this README in the browser for reference](https://github.com/Ash258/GenericBucket/tree/master/README.md)
-    1. Open `README.template.md`
-    1. Replace all `%%templatestring%%` with real and according values
-        1. Replace appveyor status badge with yours
-            - See: <https://appveyor.com/docs/status-badges/>
-    1. Override this README with completed `README.template.md`
-    1. Remove template `README.template.md`
-1. Repository tweaks
-    1. Open `.github\CODEOWNERS` and change `@Ash258` to desired github username
-    1. Actions
-        1. Open each file in `.github\workflows` and change `youremail@email.com` with your email
-        1. Visit <https://github.com/Ash258/Scoop-GithubActions> for more information
-1. 🎉🎉 Everything set. High quality and automated bucket is ready for new users 🎉🎉
+- 个人使用，不喜欢添加太多 bucket
+- 可能原 bucket 更新不够及时
