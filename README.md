@@ -33,6 +33,7 @@
 
 | 应用名称                                      |               Scoop 内名称               | 来源                                                                    |
 | --------------------------------------------- | :--------------------------------------: | ----------------------------------------------------------------------- |
+| [MobaXterm](https://mobaxterm.mobatek.net/)   |   [mobaxterm](./bucket/mobaxterm.json)   | [lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras) |
 | [Origin EA](https://www.origin.com/)          |      [origin](./bucket/origin.json)      | [Ash258/scoop-Ash258](https://github.com/Ash258/scoop-Ash258)           |
 | [pgAdmin 4](https://www.pgadmin.org)          | [pgadmin4-np](./bucket/pgadmin4-np.json) | [oltolm/scoop-nonportable](https://github.com/oltolm/scoop-nonportable) |
 | [PicGo](https://github.com/Molunerfinn/PicGo) |       [picgo](./bucket/picgo.json)       | [helbing/scoop-bucket](https://github.com/helbing/scoop-bucket)         |
