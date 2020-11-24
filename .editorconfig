@@ -11,5 +11,5 @@ trim_trailing_whitespace = true
 [.git/hooks/*]
 end_of_line = lf
 
-[*.{yml,yaml}]
+[*.{yml,yaml,md}]
 indent_size = 2
