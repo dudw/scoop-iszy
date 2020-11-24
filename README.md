@@ -1,4 +1,4 @@
-# Scoop ISZY Bucket ![GitHub repo size](https://img.shields.io/github/repo-size/zvonimirsun/scoop-iszy?style=flat&logo=github) [![Build status](https://img.shields.io/appveyor/ci/zvonimirsun/scoop-iszy/master?style=flat&logo=appveyor)](https://ci.appveyor.com/project/ZvonimirSun/scoop-iszy)
+# Scoop ISZY Bucket ![Manifest Count](https://img.shields.io/badge/manifests-19-brightgreen?style=flat) [![Build status](https://img.shields.io/appveyor/ci/zvonimirsun/scoop-iszy/master?style=flat&logo=appveyor)](https://ci.appveyor.com/project/ZvonimirSun/scoop-iszy)
 
 `scoop bucket add iszy 'https://github.com/ZvonimirSun/scoop-iszy.git'`
 
