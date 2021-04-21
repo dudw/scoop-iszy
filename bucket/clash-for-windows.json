@@ -1,12 +1,12 @@
 {
     "homepage": "https://docs.cfw.lbyczf.com/",
     "description": "A Windows GUI based on Clash https://docs.cfw.lbyczf.com/",
-    "version": "0.14.1",
+    "version": "0.15.3",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.14.1/Clash.for.Windows.Setup.0.14.1.exe#/clash.7z",
-            "hash": "b2a5eef1f5ebf3717e79cb051fb214b9812918bd43bb863137d113dd5a0191db",
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.3/Clash.for.Windows.Setup.0.15.3.exe#/clash.7z",
+            "hash": "a46eac30eb27b600432c8527fd16f3391945294c636f74f3b12f93beefbb7630",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",

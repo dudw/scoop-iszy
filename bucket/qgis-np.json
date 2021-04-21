@@ -1,16 +1,16 @@
 {
     "homepage": "https://www.qgis.org/en/site/",
     "description": "A Free and Open Source Geographic Information System",
-    "version": "3.16.2",
+    "version": "3.18.2",
     "license": "GNU",
     "architecture": {
         "64bit": {
-            "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.16.2-1-Setup-x86_64.exe",
-            "hash": "8c11d0e8a7a79bedfba9a30076e198517e3f855a75816984d9eb86020022d733"
+            "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.18.2-1-Setup-x86_64.exe",
+            "hash": "b60d71e1c57c22f0861f6f933495672466aa8a01ce44f881e1b6014f2ebfa798"
         },
         "32bit": {
-            "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.16.2-1-Setup-x86.exe",
-            "hash": "e63aab918f330d0141f4387bc3e8a5844adf3a9d919f9a33fdd02d7b62e590a4"
+            "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.18.2-1-Setup-x86.exe",
+            "hash": "7a63798db92d852909bd063a658e5eb8e6620c448c4503513fddf611500d4758"
         }
     },
     "installer": {
