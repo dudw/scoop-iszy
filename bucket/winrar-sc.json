@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/wrr/winrar-x64-602sc.exe",
-            "hash": "8796853c8c0fc8f893f2f95b885ecf52f71495c2571b0913458b6c5e134aea42"
+            "hash": "8c93718c17e5b35040ee93b0dbc1549fc016f0786be6dbebe88265e7beba9207"
         },
         "32bit": {
             "url": "https://www.win-rar.com/fileadmin/winrar-versions/sc/sc20210616/wrr/wrar602sc.exe",
