@@ -1,15 +1,15 @@
 on:
   pull_request:
-    types: [ opened ]
-name: Pull Requests
+    types: [opened]
+name: Pull requests
 jobs:
   pullRequestHandler:
-    name: Pull Request Validator
-    runs-on: ubuntu-latest
+    name: PullRequestHandler
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@main
-    - name: Pull Request Validation
-      uses: Ash258/Scoop-GithubActions@stable
+    - name: PullRequestHandler
+      uses: shovel-org/GithubActions@main
       env:
         GITH_EMAIL: hi@iszy.xyz
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
