@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: '*/5 * * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 name: Excavator
 jobs:
@@ -8,10 +8,10 @@ jobs:
     name: Excavator
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@main
-    - name: Excavate
-      uses: shovel-org/GithubActions@main
-      env:
-        GITH_EMAIL: hi@iszy.xyz
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SKIP_UPDATED: '1'
+      - uses: actions/checkout@main
+      - name: Excavate
+        uses: shovel-org/GithubActions@main
+        env:
+          GITH_EMAIL: hi@iszy.xyz
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: "1"
