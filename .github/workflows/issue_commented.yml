@@ -1,16 +1,16 @@
 on:
-  schedule:
-    - cron: "*/5 * * * *"
-name: Excavator
+  issue_comment:
+    types: [ created ]
+name: Commented Pull Request
 jobs:
-  excavate:
-    name: Excavator
+  pullRequestHandler:
+    name: Pull Request Validator
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@main
-      - name: Excavator
+      - name: Pull Request Validator
         uses: shovel-org/GithubActions@main
+        if: startsWith(github.event.comment.body, '/verify')
         env:
           GITH_EMAIL: hi@iszy.xyz
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SKIP_UPDATED: "1"
